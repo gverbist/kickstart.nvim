@@ -236,9 +236,12 @@ require('lazy').setup({
 
 -- Set highlight on search
 vim.o.hlsearch = false
-
+vim.o.incsearch = true
 -- Make line numbers default
 vim.wo.number = true
+
+-- Set relative line numbers
+vim.o.relativenumber = true
 
 -- Enable mouse mode
 vim.o.mouse = 'a'
